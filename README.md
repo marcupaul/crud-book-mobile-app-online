@@ -1,4 +1,4 @@
-# crud-book-mobile-app-online
+# Book Management/Library App - Online Version
 
 This project contains a mobile aggregation application specifically for managing read books. It allows adding book entries to its database, opening them in a separate menu and modifying their entries in the application display. The application has a Material user interface, and it is written in Dart, using the Flutter open source framework.
 
