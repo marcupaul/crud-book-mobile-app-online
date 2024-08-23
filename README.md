@@ -1,8 +1,8 @@
 # Book Management/Library App - Online Version
 
-This project contains a mobile aggregation application specifically for managing read books. It allows adding book entries to its database, opening them in a separate menu and modifying their entries in the application display. The application has a Material user interface, and it is written in Dart, using the Flutter open source framework.
+This project contains a mobile aggregation application specifically for managing read books. It allows adding book entries to its database, opening them in a separate menu and modifying their entries in the application display. The application has a Material user interface, and it is written in `Dart`, using the `Flutter` open source framework.
 
-In this iteration of the project, the data is saved both locally and on a server. The server utilized by the application is a simple Node.js webserver, with persistent storage capabilities and CRUD endpoints. In terms of data consistency scenarios, creating an entry in the application stores it to the local database immediately, as well as uploads it to the server. Updating a book's information also prompts the application to echo the changes to the DB and the server. Deletion wipes the data from the server and flags the entry as deleted in the local database.
+In this iteration of the project, the data is saved both locally and on a server. The server utilized by the application is a simple `Node.js` webserver, with persistent storage capabilities and CRUD endpoints. In terms of data consistency scenarios, creating an entry in the application stores it to the local database immediately, as well as uploads it to the server. Updating a book's information also prompts the application to echo the changes to the DB and the server. Deletion wipes the data from the server and flags the entry as deleted in the local database.
 
 Offline scenarios:
 
